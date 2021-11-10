@@ -11,8 +11,21 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap"
       rel="stylesheet"
     />
-  
     <title>Document</title>
+    <style>
+      @media screen and (max-width: 600px){
+        img{
+          max-width:100% !important;
+        }
+        table[class="container-table"]{
+          width:100%;
+        }
+        td[class="after-pay"] img{
+          width:100%;
+          margin: 0 !important;
+        }
+      }
+      </style>
   </head>
   <body>
     <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -25,7 +38,7 @@
             cellspacing="0"
             border="0"
             width="600"
-          >
+         class="container-table" >
             <tr>
               <td>
                 <table
@@ -66,7 +79,7 @@
                 <table align="center">
                   <tr>
                     <td>
-                      <img src="https://i.postimg.cc/wvn2bCkS/logo.png" alt="" />
+                      <img src="https://i.postimg.cc/wvn2bCkS/logo.png" alt="" style="width:100%"/>
                     </td>
                   </tr>
                 </table>
@@ -406,7 +419,7 @@
                     </td>
                     </tr>
                        <tr>
-                          <td align="center">
+                          <td align="center" class="after-pay">
                           <img src="https://i.postimg.cc/SsnVdSc6/afterpay.png" alt="afterpay" style="margin:40px;">
                         </td>
                   </tr>
